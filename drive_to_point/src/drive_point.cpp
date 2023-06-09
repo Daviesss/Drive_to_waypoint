@@ -4,6 +4,7 @@
 #include "nav_msgs/msg/odometry.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
 #include "geometry_msgs/msg/twist.hpp"
+#include <iostream>
 
 class Following_waypoints : public rclcpp::Node {
 public:
