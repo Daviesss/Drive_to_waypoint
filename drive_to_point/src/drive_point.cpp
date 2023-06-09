@@ -65,12 +65,12 @@ private:
     waypoint1.pose.orientation.w = 1.0;
     waypoints_.push_back(waypoint1);
 
-    geometry_msgs::msg::PoseStamped waypoint3;
-    waypoint3.pose.position.x = 0.3;
-    waypoint3.pose.position.y = 0.4;
-    waypoint3.pose.position.z = 0.0;
-    waypoint3.pose.orientation.w = 1.0;
-    waypoints_.push_back(waypoint3);
+    geometry_msgs::msg::PoseStamped waypoint2;
+    waypoint2.pose.position.x = 0.3;
+    waypoint2.pose.position.y = 0.4;
+    waypoint2.pose.position.z = 0.0;
+    waypoint2.pose.orientation.w = 1.0;
+    waypoints_.push_back(waypoint2);
 
   }
 
