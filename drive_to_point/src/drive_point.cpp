@@ -65,7 +65,9 @@ private:
     waypoint1.pose.position.z = 0.0;
     waypoint1.pose.orientation.w = 1.0;
     waypoints_.push_back(waypoint1);
+    std::cout << "waypoint2" << std::endl;
 
+    
     geometry_msgs::msg::PoseStamped waypoint2;
     waypoint2.pose.position.x = 0.3;
     waypoint2.pose.position.y = 0.4;
