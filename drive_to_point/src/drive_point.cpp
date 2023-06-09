@@ -71,6 +71,7 @@ private:
     waypoint2.pose.position.z = 0.0;
     waypoint2.pose.orientation.w = 1.0;
     waypoints_.push_back(waypoint2);
+    std::cout << "waypoint2" << std::endl;
 
   }
 
